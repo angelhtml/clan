@@ -1,0 +1,19 @@
+.section{
+    z-index: 100 !important;
+    display: flex;
+    margin-left: 7%;
+    width: 85%;
+    border-radius: 20px 20px;
+ 
+}
+.sectionbox1{
+    flex: 50%;
+}
+.sectionbox2{
+    flex: 50%;
+}
+@media screen and (max-width: 768px) {
+    .section {
+    flex-direction: column;
+    }
+    }
